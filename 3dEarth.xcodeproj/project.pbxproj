@@ -12,6 +12,9 @@
 		5226E9151FD4481B00C72C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5226E9131FD4481B00C72C21 /* Main.storyboard */; };
 		5226E9171FD4481B00C72C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5226E9161FD4481B00C72C21 /* Assets.xcassets */; };
 		5226E91A1FD4481B00C72C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5226E9181FD4481B00C72C21 /* LaunchScreen.storyboard */; };
+		5226E9231FD44A5600C72C21 /* StarsParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5226E9211FD44A5600C72C21 /* StarsParticles.scnp */; };
+		5226E9241FD44A5600C72C21 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5226E9221FD44A5600C72C21 /* star.png */; };
+		5262740E1FD44F3400790D87 /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262740D1FD44F3400790D87 /* EarthNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5226E9161FD4481B00C72C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5226E9191FD4481B00C72C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5226E91B1FD4481B00C72C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5226E9211FD44A5600C72C21 /* StarsParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarsParticles.scnp; sourceTree = "<group>"; };
+		5226E9221FD44A5600C72C21 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		5262740D1FD44F3400790D87 /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				5226E90F1FD4481B00C72C21 /* AppDelegate.swift */,
 				5226E9111FD4481B00C72C21 /* ViewController.swift */,
+				5262740D1FD44F3400790D87 /* EarthNode.swift */,
+				5226E9211FD44A5600C72C21 /* StarsParticles.scnp */,
+				5226E9221FD44A5600C72C21 /* star.png */,
 				5226E9131FD4481B00C72C21 /* Main.storyboard */,
 				5226E9161FD4481B00C72C21 /* Assets.xcassets */,
 				5226E9181FD4481B00C72C21 /* LaunchScreen.storyboard */,
@@ -124,7 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5226E91A1FD4481B00C72C21 /* LaunchScreen.storyboard in Resources */,
+				5226E9241FD44A5600C72C21 /* star.png in Resources */,
 				5226E9171FD4481B00C72C21 /* Assets.xcassets in Resources */,
+				5226E9231FD44A5600C72C21 /* StarsParticles.scnp in Resources */,
 				5226E9151FD4481B00C72C21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5226E9121FD4481B00C72C21 /* ViewController.swift in Sources */,
+				5262740E1FD44F3400790D87 /* EarthNode.swift in Sources */,
 				5226E9101FD4481B00C72C21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
